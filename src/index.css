@@ -8,3 +8,30 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #000;
 }
+
+.slick-track div:focus {
+  outline: none !important;
+}
+
+.slick-slide > div {
+  margin: 0 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 50px;
+  color: red;
+}
+
+.slick-prev {
+  left: 55px;
+  z-index: 9999;
+  top: 33%;
+}
+
+.slick-next {
+  right: 55px;
+  z-index: 9999;
+  top: 33%;
+}
